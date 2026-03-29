@@ -1,0 +1,3 @@
+export async function POST() {
+  return Response.json({ ok: false, error: 'Upload disabled for static export' }, { status: 410 });
+}
