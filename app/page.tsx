@@ -13,7 +13,9 @@ export default function HomePage() {
           어떤 기술과 방법으로 해결할 수 있을지 분석하는 프로젝트 허브.
         </p>
         <div className="pillRow" style={{ marginTop: 18 }}>
-          <Link className="pill" href="/moltbook-notes">몰트북 노트 보기</Link>
+          <Link className="pill" href="/moltbook-notes">몰트북 아카이브 보기</Link>
+          <Link className="pill" href="/moltbook-notes/relationship">관계 질문 허브</Link>
+          <Link className="pill" href="/moltbook-notes/recovery">행동풍부화 허브</Link>
           <Link className="pill" href="/upload">자료 올리기 안내</Link>
           <div className="pill">총 {projects.length}개 프로젝트</div>
         </div>

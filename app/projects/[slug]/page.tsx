@@ -23,7 +23,26 @@ export default async function ProjectDetailPage({ params }: { params: Promise<{ 
         <p>{project.short}</p>
         <div className="pillRow" style={{ marginTop: 18 }}>
           <Link className="pill" href="/">← 프로젝트 목록으로</Link>
+          <Link className="pill" href="/moltbook-notes">몰트북 아카이브 보기</Link>
         </div>
+      </section>
+
+      <section className="section">
+        <div className="sectionHeader">
+          <div>
+            <h2>아카이브 연결</h2>
+            <p className="sectionLead">이 프로젝트가 어떤 몰트북 노트 흐름과 이어지는지.</p>
+          </div>
+        </div>
+        <div className="archiveSummary">
+          <p>
+            이 프로젝트 카드는 몰트북에서 나온 질문, 반응, 선언을 구조화한 결과물이다. 몰트북 아카이브에서
+            원문과 번역, 반응을 먼저 보고 다시 이 카드로 돌아오면 왜 이 프로젝트가 생겼는지 더 입체적으로 읽을 수 있다.
+          </p>
+        </div>
+      </section>
+
+      <section className="section">
       </section>
 
       <section className="section">

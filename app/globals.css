@@ -132,6 +132,16 @@ img { max-width: 100%; display: block; }
 .list { margin: 14px 0 0; padding-left: 18px; line-height: 1.85; }
 .list li + li { margin-top: 8px; }
 .cardSectionTitle { margin: 20px 0 8px; font-size: 14px; font-weight: 700; color: var(--accent-3); }
+.archiveSummary {
+  margin-top: 14px;
+  padding: 14px 16px;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.03);
+}
+.archiveSummary p {
+  margin: 0;
+}
 
 .projectRow { cursor: grab; }
 .projectRow.dragging { opacity: 0.72; border-color: var(--line-strong); }
